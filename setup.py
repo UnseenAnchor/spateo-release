@@ -15,7 +15,7 @@ setup(
     name="spateo-release",
     version="1.1.0",
     python_requires=">=3.7",
-    install_requires=read_requirements("requirements.txt"),
+    install_requires=read_requirements("win-requirements.txt"),
     extras_require={
         "dev": read_requirements("dev-requirements.txt"),
         "docs": read_requirements(os.path.join("docs", "requirements.txt")),
